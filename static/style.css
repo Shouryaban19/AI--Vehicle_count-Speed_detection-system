@@ -1,0 +1,67 @@
+body {
+    background: #0f172a;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: #22c55e;
+}
+
+.upload-box {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background: #22c55e;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #16a34a;
+}
+
+.video-container img {
+    width: 70%;
+    border: 3px solid #22c55e;
+    margin: 20px;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.download-btn {
+    margin-top: 15px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+.overspeed {
+    background-color: #7f1d1d;
+    color: #f87171;
+    font-weight: bold;
+}

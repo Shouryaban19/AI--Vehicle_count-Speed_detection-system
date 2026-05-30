@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Traffic Cop</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>🚦 AI Traffic Cop</h1>
+
+<div class="upload-box">
+    <form id="uploadForm">
+        <input type="file" name="file" required>
+        <button type="submit">Upload Video</button>
+    </form>
+
+    <div class="controls">
+        <button id="startBtn">▶ Start</button>
+        <button id="stopBtn">⏹ Stop</button>
+    </div>
+</div>
+
+<div class="video-container">
+    <img id="video">
+</div>
+
+<div class="dashboard">
+
+    <!-- LEFT SIDE -->
+    <div class="card">
+        <h2>Vehicle Count</h2>
+        <div id="stats"></div>
+
+        <a href="/download_count">
+            <button class="download-btn">Download Count CSV</button>
+        </a>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="card">
+        <h2>Vehicle Speeds</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Speed (km/h)</th>
+                </tr>
+            </thead>
+            <tbody id="speedTable"></tbody>
+        </table>
+
+        <a href="/download_speed">
+            <button class="download-btn">Download Speed CSV</button>
+        </a>
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
