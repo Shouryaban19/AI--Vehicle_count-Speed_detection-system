@@ -1,0 +1,1 @@
+An AI based Vehicle Monitoring System that Counts the number of Vehicles along with its types(car, bus, bike, truck). It also detects the speed of each vehicle passing by and provides red alert for overspeeding making a complete solution for traffic cops. 
